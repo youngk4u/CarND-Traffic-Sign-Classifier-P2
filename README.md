@@ -1,8 +1,6 @@
-#Self-Driving Car Engineer Nanodegree
-
-##Deep Learning
-
-## Project: Build a Traffic Sign Recognition Program
+Self-Driving Car Engineer Nanodegree
+---
+## Project 2: Build a Traffic Sign Recognition Program
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 Overview
