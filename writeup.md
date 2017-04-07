@@ -12,6 +12,9 @@ The goals / steps of this project are the following:
 * Analyze the softmax probabilities of the new images
 * Summarize the results with a written report
 
+[//]: # (Image References)
+
+[image1]: ./examples/StepOneGraph.png "Visualization"
 
 ## Writeup
 
@@ -27,7 +30,7 @@ signs data set:
 
 #### Here is an exploratory visualization of the data set. It is a bar chart showing the number of data per class.
 
-![alt text][examples/StepOneGraph.png]
+![alt text][image1]
 
 ###Design and Test a Model Architecture
 
