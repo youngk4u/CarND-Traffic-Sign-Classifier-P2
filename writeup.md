@@ -1,7 +1,5 @@
 #**Traffic Sign Recognition** 
 
-###You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
 ---
 
 **Build a Traffic Sign Recognition Project**
@@ -16,9 +14,8 @@ The goals / steps of this project are the following:
 
 
 ## Writeup
----
 
-###Data Set Summary & Exploration 
+### Data Set Summary & Exploration 
 
 I used the numpy library to calculate summary statistics of the traffic
 signs data set:
@@ -28,9 +25,9 @@ signs data set:
 * The shape of a traffic sign image is 32, 32, 3
 * The number of unique classes/labels in the data set is 43 classes.
 
-####Here is an exploratory visualization of the data set. It is a bar chart showing the number of data per class.
+#### Here is an exploratory visualization of the data set. It is a bar chart showing the number of data per class.
 
-![alt text][image1]
+![alt text][examples/StepOneGraph.png]
 
 ###Design and Test a Model Architecture
 
