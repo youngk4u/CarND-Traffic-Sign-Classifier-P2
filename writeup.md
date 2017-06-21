@@ -29,7 +29,7 @@ signs data set:
 * The shape of a traffic sign image is 32, 32, 3
 * The number of unique classes/labels in the data set is 43 classes.
 
-#### Here are 30 traffic signs randomly selected from the dataset.
+#### Here are 30 traffic signs randomly selected from the dataset provided for the project.
 
 ![alt text][image1]
 
@@ -39,19 +39,15 @@ signs data set:
 
 ### Design and Test a Model Architecture
 
-#### 1. Describe how, and identify where in your code, you preprocessed the image data. What tecniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc.
+#### In order to preprocess the data set images, I chose to implement two methods: Normaliztion and Graysale.  Initially, I applied grayscale on the image before normalizing and the end result came out around 91% validation accuracy.  Then I switched the order of preprocess and got better results.  
 
-The code for this step is contained in the fourth code cell of the IPython notebook.
-
-As a first step, I decided to convert the images to grayscale because ...
-
-Here is an example of a traffic sign image before and after grayscaling.
+Here is an example of a traffic sign image before and after normalization and grayscale.
 
 ![alt text][image3]
 
-As a last step, I normalized the image data because ...
+#### 
 
-#### 2. Describe how, and identify where in your code, you set up training, validation and testing data. How much data was in each set? Explain what techniques were used to split the data into these sets. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, identify where in your code, and provide example images of the additional data)
+Describe how, and identify where in your code, you set up training, validation and testing data. How much data was in each set? Explain what techniques were used to split the data into these sets. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, identify where in your code, and provide example images of the additional data)
 
 The code for splitting the data into training and validation sets is contained in the fifth code cell of the IPython notebook.  
 
